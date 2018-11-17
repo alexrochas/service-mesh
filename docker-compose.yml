@@ -1,0 +1,5 @@
+fake-server:
+  image: alexsuzume/fake-server
+  ports:
+    - 8080:8080 # at some point, kubectl will say that you should not expose ports here
+
