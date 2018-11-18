@@ -31,6 +31,15 @@ Create deploy yml with [Kompose](https://github.com/kubernetes/kompose).
 ~/path/to/project/$ kompose convert -f docker-compose.yml -o deploy.yml`
 ```
 
+The used docker-compose.yml was:
+
+´´´
+fake-server:
+  image: alexsuzume/fake-server
+  ports:
+    - 8080:8080
+```
+
 ### Deploy
 
 Easy:
