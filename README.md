@@ -33,7 +33,7 @@ Create deploy yml with [Kompose](https://github.com/kubernetes/kompose).
 
 The used docker-compose.yml was:
 
-´´´
+```
 fake-server:
   image: alexsuzume/fake-server
   ports:
